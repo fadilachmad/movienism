@@ -1,14 +1,17 @@
 import React from "react";
+import { useEffect } from "react";
 import { LuGlobe } from "react-icons/lu";
 
 const Hero = () => {
+  useEffect(() => {});
+
   return (
     <>
-      <div className="relative h-screen bg-cover bg-center bg-no-repeat bg-[url('https://image.tmdb.org/t/p/original/b3mdmjYTEL70j7nuXATUAD9qgu4.jpg')]">
-        <div className="absolute inset-0 bg-gradient-to-b from-[rgba(26,26,26,1)] via-[rgba(26,26,26,0.58)] via-57% to-[rgba(20,20,20,1)] to-75%"></div>
+      <div className="relative w-screen bg-cover bg-center  bg-no-repeat bg-[url('https://image.tmdb.org/t/p/original/vZG7PrX9HmdgL5qfZRjhJsFYEIA.jpg')]">
+        <div className="absolute inset-0 bg-gradient-to-b from-dark via-[rgba(26,26,26,0.6)] via-30% to-[rgba(20,20,20,1)] to-75%"></div>
 
-        <div className="relative z-10 text-center flex items-center flex-col">
-          <div className="mt-48 flex justify-center opacity-45 mb-16">
+        <div className="scale-90 md:scale-100 relative z-10 text-center flex items-center flex-col">
+          <div className="mt-16 md:mt-48 md:mb-16 flex justify-center opacity-45 ">
             <svg
               width="257"
               height="156"

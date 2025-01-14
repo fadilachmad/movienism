@@ -9,9 +9,8 @@ const Home = () => {
     <div className="h-[1000px]">
       <Navbar />
       <Hero />
-
-      {/* <Categories />
-      <Footer /> */}
+      <Categories />
+      {/* <Footer /> */}
     </div>
   );
 };
