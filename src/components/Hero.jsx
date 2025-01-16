@@ -7,7 +7,7 @@ const Hero = () => {
   useEffect(() => {});
 
   return (
-    <BackdropImage>
+    <BackdropImage query="/movie/popular">
       <div className="mt-16 scale-75 md:scale-100 md:mt-48 md:mb-16 flex justify-center opacity-45 ">
         <svg
           width="257"
@@ -33,17 +33,17 @@ const Hero = () => {
       <h1 className="font-bold font-jakarta text-xl md:text-3xl my-2 text-white">
         The Best Streaming Experience
       </h1>
-      <p className="font-light font-urbanist md:w-3/4 text-xs md:text-sm my-2 text-gray-200">
+      <p className="font-light font-urbanist md:w-3/4 text-xs md:text-base my-2 text-gray-200">
         Movienism is the best streaming experience for watching your favorite
         movies and shows on demand, anytime, anywhere. With Movienism, you can
         enjoy a wide variety of content, including the latest blockbusters,
         classic movies, popular TV shows, and more. You can also create your own
         watchlists, so you can easily find the content you want to watch.
       </p>
-      <div className="flex my-5 border  border-white px-3 w-2/3 rounded-md py-3">
+      <div className="flex my-5 border  border-white px-3 w-2/3 rounded-lg py-2 md:py-3">
         <input
           type="text"
-          className="text-white font-thin bg-transparent focus:outline-none placeholder:text-white placeholder:opacity-35 w-full"
+          className="text-white font-light bg-transparent focus:outline-none placeholder:text-white placeholder:opacity-35 w-full"
           placeholder="Search for a Movie, TV Shows, or actors......"
         />
         <GoSearch className="cursor-pointer size-6" />

@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
+import BackdropImage from "../components/BackdropImage";
 
 const Movies = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <BackdropImage query="/movie/now_playing">
+        <h1>kons</h1>
+      </BackdropImage>
     </div>
   );
 };
